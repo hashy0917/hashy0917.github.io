@@ -6,3 +6,6 @@ So I made it easy.
 
 ## files
 index.html
+
+## Used Technology
+- bootstrap 4.3.1
