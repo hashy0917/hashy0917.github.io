@@ -8,3 +8,18 @@ header {
     font-weight: bold;
     border: solid 3px #000000;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    .hashy-icon {
+        animation: icon-rotate infinite 600000ms linear;
+    }
+}
+
+@keyframes icon-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
