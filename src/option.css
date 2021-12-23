@@ -2,11 +2,31 @@ header {
 
 }
 
+footer {
+
+}
+
+body {
+
+}
+
+main {
+    background: #666;
+}
+
 .frame {
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
     border: solid 3px #000000;
+}
+
+.icon {
+    color: #000000;
+}
+
+.font {
+    font-family: Kaiso-tai, serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,3 +43,51 @@ header {
         transform: rotate(360deg);
     }
 }
+
+@font-face {
+    font-family: Kaiso-tai;
+    src: url('/fonts/Kaisotai-Next-UP-B.woff2') format('woff2');
+}
+
+body > header {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+body > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: url(/img/image.JPG);*/
+    /*color: #FFFFFF;*/
+    /*text-shadow: 0 0 0.125em #006760;*/
+}
+
+body > header a {
+    transition: 0.3s;
+    /*
+    width: 2em;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 0.25em 1.5em;
+    border: 1px #FFFFFF solid;
+    */
+}
+
+body > header a:hover {
+    transition: 0.3s;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+/*
+パクらせて頂きました
+
+- https://tsurai.work/
+- https://coco-factory.jp/ugokuweb/move02/5-11/
+*/
