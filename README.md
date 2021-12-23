@@ -1,11 +1,24 @@
 # hashy0917.github.io
 
-my [`GitHub Pages`](https://hashy0917.github.io) is Static site.
+## Project setup
+```
+npm install
+```
 
-So I made it easy.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## files
-index.html
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## Used Technology
-- bootstrap 4.3.1
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
