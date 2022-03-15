@@ -14,6 +14,10 @@ main {
     background: #666;
 }
 
+a {
+    z-index: 100;
+}
+
 .frame {
     padding: 0.5em 1em;
     margin: 2em 0;
