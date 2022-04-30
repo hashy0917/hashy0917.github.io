@@ -30,7 +30,7 @@
 
 </head>
 <body>
-<header>
+<header id="head">
     <div class="container-fluidr">
         <div class="row">
             <div class="col-12">
@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <div id="name" class="row">
+        <div class="row">
             <h1 class="col-12 text-center display-1 font">
                 {{ myname }}
             </h1>
@@ -58,9 +58,30 @@
                 <i class="fab fa-wordpress fa-4x"></i>
             </a>
 
-            <a class="col-auto rounded-circle frame mx-auto icon" href="./links.html">
-                <i class="fas fa-bars fa-4x"></i>
+            <a class="col-auto rounded-circle frame mx-auto icon" href="javascript:void(0)" v-on:click="open=!open">
+                <i aria-hidden="true" class="fas fa-bars fa-4x"></i>
             </a>
+            <div class="menu font" v-bind:class="{'is-active' : open }">
+                <div class="menu__item">
+                    <a class="btn col-xl-6 border text-primary display-4" v-on:click="open=!open">
+                        <i aria-hidden="true" class="fas fa-bars"></i>
+                    </a>
+                </div>
+                <div class="menu__item">
+                    <a class="btn col-xl-6 border text-primary display-4" href="https://gitlab.com/hashy0917">GitLab</a>
+                </div>
+                <div class="menu__item">
+                    <a class="btn col-xl-6 border text-primary display-4" href="https://connpass.com/user/oohasi/">connpass</a>
+                </div>
+                <div class="menu__item">
+                    <a class="btn col-xl-6 border text-primary display-4" href="mailto:mail@hashy0917.net">send mail</a>
+                </div>
+                <div class="menu__item">
+                    <a class="btn col-xl-6 border text-primary display-4"
+                       href="https://mstdn.maud.io/web/accounts/199621">mastodon</a>
+                </div>
+            </div>
+
         </div>
     </div>
 </header>
@@ -71,8 +92,8 @@
         </div>
 
         <div class="container box">
-            <div class="row">
-                <div id="msg" class="col-md-auto display-4 font">
+            <div id="main" class="row">
+                <div class="col-md-auto display-4 font">
                     <p>
                         {{ message1 }}
                         <br/>
@@ -83,15 +104,14 @@
                 </div>
             </div>
         </div>
-
         <div class="container">
             <div class="row">
                 <div class="col-1">
 
                 </div>
-                <div id="app" class="col-10 display-4">
+                <div class="col-10 display-4">
                     <p>
-                        {{ message }}
+
                     </p>
                 </div>
                 <div class="col-1">
@@ -100,6 +120,7 @@
             </div>
         </div>
     </div>
+
 </main>
 <footer>
     <div class="container-auto">
@@ -117,7 +138,7 @@
 <nav>
 
 </nav>
-<script src="src/main.js"></script>
+<script src="/src/main.js"></script>
 
 <!-- coco-factory ugokuweb -->
 <script src="/src/ugokuweb.js"></script>

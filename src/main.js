@@ -5,27 +5,20 @@ ScrollReveal().reveal('.box', {
 });
 
 new Vue({
-    el: '#name',
+    el: '#head',
     data: {
+        open: false,
         myname: 'はっすぃ'
-    }
+    },
 })
 
 var vm = new Vue({
-    el: '#msg',
+    el: '#main',
     data: {
         message1: '都内在住のエンジニア見習い。お仕事募集中。',
         message2: 'インフラの構築やそれに関する記事を書いたり、　　セキュリティに関する事などをやっています。',
         message3: 'お仕事をご依頼の際はご連絡ください。'
     },
-
 })
 
 //vm.$watch()
-
-new Vue({
-    el: '#app',
-    data: {
-        message: ''
-    }
-})
