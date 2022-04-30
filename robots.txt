@@ -1,2 +1,3 @@
 User-agent : *
 Disallow :
+Sitemap: https://www.hashy0917.net/sitemap.xml
