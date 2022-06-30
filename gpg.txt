@@ -1,3 +1,9 @@
+<html>
+<head>
+  <meta name="color-scheme" content="light dark">
+</head>
+<body>
+  <pre style="word-wrap: break-word; white-space: pre-wrap;">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mJMEYr23fhMFK4EEACMEIwQAH2nAow2FXUNRe5X/7BCtf31godkzf++/ho6EQS9/
@@ -893,3 +899,6 @@ R0lXvwIIqfudmA/MjmOUPjdp7RGR1E79SX4Wv7U5pLxoSSVgFActTZ/pOcaNbjUW
 Q5yma4HiJ/AneclboWbCbLnukIaBRLrYEBRU/F59VjCjG4sbLr58IfBu
 =XVHQ
 -----END PGP PUBLIC KEY BLOCK-----
+  </pre>
+</body>
+</html>
