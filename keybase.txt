@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hashy0917
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hashy0917.net
+  * I am hashy0917 (https://keybase.io/hashy0917) on keybase.
+  * I have a public key ASB2K-BX7CAd2IRzll5lpfqkq0wM8rKebUnScG9Oj-36lgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120762be057ec201dd88473965e65a5faa4ab4c0cf2b29e6d49d2706f4e8fedfa960a",
+      "host": "keybase.io",
+      "kid": "0120762be057ec201dd88473965e65a5faa4ab4c0cf2b29e6d49d2706f4e8fedfa960a",
+      "uid": "a85ee0a4ba87cf18f312ab53942b8919",
+      "username": "hashy0917"
+    },
+    "merkle_root": {
+      "ctime": 1656738802,
+      "hash": "5f8998fe8aaa703a58f672a81506947f17ad8066d7f5484971077e3eb95fcae74ce1718fc5c7c53949900aed21e77ce9d812fb942ddcb01200224fe837069b6a",
+      "hash_meta": "09ae4e63cf1dd6a3cc85c37d9c6775370619cdf99aff853716f1721efc8ffaac",
+      "seqno": 22777642
+    },
+    "service": {
+      "entropy": "gAjOWnql5RDTlrrkKiLWb4BK",
+      "hostname": "hashy0917.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1656738829,
+  "expire_in": 504576000,
+  "prev": "804f915289f1f4abaac1bd84daeaab279f13b38784307207c3b8e259b622d0f6",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdivgV+wgHdiEc5ZeZaX6pKtMDPKynm1J0nBvTo/t+pYKp3BheWxvYWTESpcCD8QggE+RUonx9Kuqwb2E2uqrJ58Ts4eEMHIHw7jiWbYi0PbEIOKG2z5xHB0GkHp2fooRU0tqFMiEVGV3ygyrbDKwsU+tAgHCo3NpZ8RAzmgev5VUHtn563a2vMISqKXFJH+yXAE6NIBUrZcFfkqj/ks9AFwhizteKHJ9l391XjMK5RHWkJBJKRLktGFuCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKvoxYw33gl+yBREfOLzVWQJUDROk9izVSL1EScutB0po3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hashy0917
+
+==================================================================
