@@ -35,11 +35,21 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-       gtag('config', 'G-LLYXR6P5KE');
+        gtag('config', 'G-LLYXR6P5KE');
+
+        //ページの読み込み完了イベントを監視
+        window.addEventListener('load', function() {
+            // ローディング画面の要素を非表示にする
+            var loadingOverlay = document.getElementById('loading-overlay');
+            loadingOverlay.style.display = 'none';
+        });
     </script>
-	
+
 </head>
 <body>
+<div id="loading-overlay">
+    <div class="spinner"></div>
+</div>
 <header id="head">
     <div class="container-fluidr">
         <div class="row">
@@ -164,4 +174,84 @@
 <!-- coco-factory ugokuweb -->
 <script src="/src/ugokuweb.js"></script>
 </body>
+<!--
+                                                                          ..,.
+                                                 `.J,                    `JMM\ `  ``          ``
+                                                  (M] `       ..          JMM~  .JN:        `.+,      ...                            ............
+                                                  MM%         MMF         JMM_.MM@!... ....  dMMm, ..MMMN#=               ``  ..JgNMMMMMMMMMMMMMMMNN&..` ` `
+                                                 .MM`       `.MM] `     ` JMMMM#^  dM#MMM@!   ?MMMMM9!  `               `..jNMMMMMHY"7!`       ~?"TMMMMNgJ,
+                                                 dMF         dM#`         .MMMD     73.?`        ~`              ` `  .+MMMMM9=`                     _"WMMMMN,. ` `
+                                                .MM!        .MMF         `.MMF   ` ..         `                  `..gMMM#"!                              -7WMMMN,. `
+                                                dMF     `  `dMNJ,. `..R  `dMM&  ..MF                        ` ` .gMMMB^                                      ?TMMNe.  `
+                                               .MM:       ` MMMMMNNNMMM`  .WMMMMMN@` `                       ..MMMB^                                            7MMN.` `
+                                              `.MMa....., ` TMY`7WMB"^      _7"""!                      ``` -MMMD`                                               ,MMb
+                                                ?WMMMMM#^      `                                          .MMMY  ` `                                             .MMF
+                                                  ` ```                                                  dMN@`                                                ` .MMM!  `
+                                                                                         `  `  `        JMM% ` `                                            `  .MMM'
+                                                                                    ` `..(+ggg&J....` ` MM#                                             `  ` .(MN#!
+                                                                         `  ` `     ..NMMMMMMMMMMMMMNa, UM]`                                            `  .+MMMt
+                                                                 ` `  ..JgNNNMNNa,.&MMM9!         _?TMMN,? `                                        ``  .JMMMM"
+                                                                   .&MMMMMMB""WMMMMM#=    `           ?W3                                            .JMMMM"``
+                                                            ` ` .(MMM#"!         ?7!                                `  `                    ``  ``.(MMMM"!
+                                                              .JMMM"`                                       `` ` `    `                        .(MNMM9!
+                                                        `    .MMM"                                           .NMMMNNNmg..`                  .gMMMMMG.... ` `  `
+                                                         `  (MMF                                             MMr~~~??"WMMNe                 ,HH"TMMMMMMMNaJ. `
+                                                           (MMD                                              ?MMN,.      dM]                          ?TWMMMMNJ, `   ` `
+                                                        ``.MMF                                               .MMMMMNx.  `,M]                        `      ?TMMMNm,
+                                                          MM#`                                              ` `_"WMMMNNNHMD             `  `            `     .7MMMNa,  ` `
+                                                        `.MMt  `                                             .  .` `  `                 ` `  ``                   TMMMNJ.`
+                                                         dNM`                                               .MNMMh.....             `   .MMNNg,. `                  (TMMNa,`  `
+                                                         MM#.`                                              JM#TMMMMMMMMNJ.`          `.JMMNdWMMN,                     7MMMm,` `
+                                                         ?M#^  `                                            JM@      ~?TMMMN,`       ` dMMMMR!~?TMm.                     ?MMMm,
+                                                                                                            ,MN.       ` ?HMMm.`        7MMMMp    7N.  `                   ?MMMe.` `
+                                                         `                                                   MMN,          (MMN,  `      .TMMMNJ,. ?N,          `            7MMN,     `
+                                                                                                              TMMNg, ` `    .WMMm,`         .THMMMNaMPl`        `  `           TMMN,  `
+                                                                                                                7WMMNa,       ?MMMN,    `        _?"Y3=      ` ..,          `   (MMMe.
+                                                    `` ....`                                                       7MMMNg.. ``  (TMb  `                     `  dMMx`            ` ?MMN,  `
+                                                     .gMMM"                                                       `   7HMMMMNa,. .MM)                           WMN,                TMMm.  `
+                                                ```.dMM@!                                                                _MMMMMMNJMM]                           ,MMb                 (MMN,
+                                                `.dMM@!  `                                                                MMN ?TMMMM]                            MMN                  .HMMe    `
+                                            ```.(MM#! `                                                                   dMN    MMN@                            dMMNm,   `           ` TMMm.`
+                                              .MMM= `                                                                     dMN    dM#                             JMMMMMm.`               ?MM@ `
+                                        `  `.jMM@`                                                                      ` dMM    dM#                             (MM[?MMMe.` ``           dMN-
+                                         ` .MMM= `                                                                        MM# `  MMF                             ,MM]  7MMMm..`           jMM>
+                                          .MM#`                         ``.,                                             .MMF   .MMF                            `,MM]    ?MMMMNJ. `  ` ` .MMF
+                                         .MMF                            .M#                                            `.MMF   .MM\                             ,MM]    `  ?TMMMMN&..  .MM@   `
+                                    ``  (MND                            `.M]                                             .MM]   JMM:                             (MM\`          7TMMMMNNMM@
+                                     ` jMM$                              d#`                                             -MM}   dMN`                             dM#                ?7""9^
+                                      JMN$                              .MF                                             `JMM:   MM#                         `   .MMF
+                                     jMMt  `                            JM:                                              dMM~   MM#                             ,MM]
+                                `` .dMM%      ``                    `  .M#                                      `  `  ` `dMM. `.MMF                             JMM}
+                                  .dMM\      `                         .M%                                        `      JMM;  .MMF                             dMM!
+                             `  `.MMM^      `(                      `  M#                                   `  ` .gNe `  dMM~  -MM\                         `   MM#
+                            `  `.MMM'  `   `.#`                      `.M]                                   `   .MMMF  ` dMM`  MM#                          `  .MM#`
+                               .MM#!  `  ` .M@                        d#                                     `.jMMD      MMN  .MMF                            `.MM]
+                            ` .MM#`        dMF                      `.MF                                     .MMM^       MM#  gMM!                           ` .MMM|
+                        `   `.MM@         .MM%                       d#`                                   .JMMF   `   `.MMF  MM#                              ,YMMb
+                        ` ` .MMF          MM#                    `  .M]                                   .MMM^         .MMF .MMF                                MMN
+                           (MMF    `    `.MMF                       M#                              `  ` (MM@           .MM@ (MM\ `                          `   dMM.  `
+                          (MMD `         MMN                    `  .M%                                 .MMM^            `WM# WM@  `                              JMM-
+                    `    jMMt            MM#   `                  .MF  `                        `   ` .MN@`   `           ?!                                     (MM]
+                     `  JMMt   `         MMN.`                    JM' `                           `  JMNF`                                                      `.MMF  `
+                    `  jMMt             `(MMN,    `   `     `   `.MF                             ` .MM#^  `                                                      .MMb
+                      dMMt                -HMMN,.  `  `     ` ``.M#`                            ` .MMF                                                           .MMF
+                `    jMM\                `  (TMMMNg..          .M#`                         `   .gMMt                                `                          `.MMF
+                ` ` (MMt                       ?TWMMMNm,.`` ``.M#`                          ` `.dM#!                                ` ``                         .MM]  `
+                   jMMt                     `       ?TMMMNg-JdMD`  `                    `     .MM@`                               ` .jg,                    `    (MM\`
+                  (MMt                                  7THMB"!                              .MM@                           `  `  .MMM#^                       ` dMM`
+                 .MMF `                                        `                           `.MMF                             ` .+MMM"`                          .MM#   `
+            `` `.MM@                                                                    ` `.MMf                         `  `.(MMMB^                         `  `.MM%
+               .MM#!                                                                       .MMR.                         .(MMM#=   `                         `  MM#
+              `JMM\                                                                         ,WNMm,.`   `  `  `  ` ` ..(gMMMB=                                 `.MMF
+            ` .MMF                                                                            .TMMMNa&-...   ...-gNMMMMB"!    `                             `  dMM`
+              dMM!                                                                                ?"WMMMMMMMMMMMMM9"!                                         .MMF
+             .MMF `                                                                                      `~!``  `                                             JMM\
+          `  dMM`                                                                                                                                           `.MM# `
+        `   (MMt                                                                                                                                             jMM\  `
+           .MM#                                                                                                                                         ``  .MMF
+         `  MM\                                                                                                                                            .MMF
+            MM``                                                                                                                                        ` .MM@
+            7`                                                                                                                                           .MM#`
+                                                                                                                                                          7"`
+-->
 </html>
