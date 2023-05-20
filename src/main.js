@@ -1,3 +1,10 @@
+//ページの読み込み完了イベントを監視
+window.addEventListener('load', function() {
+    // ローディング画面の要素を非表示にする
+    var loadingOverlay = document.getElementById('loading-overlay');
+    loadingOverlay.style.display = 'none'
+});
+
 ScrollReveal().reveal('.box', {
     duration: 800,
     viewFactor: 0.5,
@@ -20,5 +27,21 @@ var vm = new Vue({
         message3: 'お仕事をご依頼の際はご連絡ください。'
     },
 })
+
+// クリック回数をカウントする変数
+var clickCount = 0;
+// 画像要素を取得
+var image = document.getElementsByClassName("hashy-icon")[0];
+
+image.addEventListener('click', function() {
+    // クリック回数をインクリメント
+    clickCount++;
+
+    // クリック回数が5回に達した場合、新しいページにリダイレクト
+    if (clickCount === 100) {
+      alert("よくぞ見つけた・・・")
+      window.location.href = 'https://www.hashy0917.tech';
+    }
+});
 
 //vm.$watch()
