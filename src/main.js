@@ -38,9 +38,9 @@ image.addEventListener('click', function() {
     clickCount++;
 
     // クリック回数が5回に達した場合、新しいページにリダイレクト
-    if (clickCount === 5) {
-      alert("test")
-      window.location.href = '/sandbox';
+    if (clickCount === 100) {
+      alert("よくぞ見つけた・・・")
+      window.location.href = 'https://www.hashy0917.tech';
     }
 });
 
