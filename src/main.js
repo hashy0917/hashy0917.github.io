@@ -40,7 +40,7 @@ image.addEventListener('click', function() {
     // クリック回数が5回に達した場合、新しいページにリダイレクト
     if (clickCount === 100) {
       alert("よくぞ見つけた・・・")
-      window.location.href = 'https://www.hashy0917.tech';
+      window.location.href = 'https://ee.hashy0917.tech';
     }
 });
 
