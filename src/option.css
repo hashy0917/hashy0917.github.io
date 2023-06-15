@@ -3,7 +3,7 @@ header {
 }
 
 footer {
-
+    background: #666;
 }
 
 body {
@@ -173,6 +173,7 @@ canvas{
 	top:0;
 	right:0;
 	z-index:0;/*重ね順を-1に　※1以上だとほかのコンテンツの上に被さってしまいます*/
+    background-color: white;
 }
 
 /*----------------------------
