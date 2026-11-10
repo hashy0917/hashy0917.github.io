@@ -1,6 +1,21 @@
 {
 	"names": {
-  		"_": "npub1jq9gv8sd2h5awar4vxx2uul2wzh7hjfm3qanadswd99r0sgd2e8qaxaalz",
-		"hashy0917": "npub1jq9gv8sd2h5awar4vxx2uul2wzh7hjfm3qanadswd99r0sgd2e8qaxaalz"
-  	}
+  		"_": "npub1jq9gv8sd2h5awar4vxx2uul2wzh7hjfm3qanadswd99r0sgd2e8qaxaalz"
+  	},
+	"relays": {
+    "npub1jq9gv8sd2h5awar4vxx2uul2wzh7hjfm3qanadswd99r0sgd2e8qaxaalz": [
+      "wss://nos.lol/",
+      "wss://yabu.me/",
+      "wss://relay-jp.nostr.wirednet.jp/",
+      "wss://nostr.compile-error.net/",
+      "wss://cagliostr.compile-error.net/",
+      "wss://ruby-nostr-relay.compile-error.net/",
+      "wss://lua-nostr-relay.compile-error.net/",
+      "wss://lisp-nostr-relay.compile-error.net/",
+      "wss://nim-nostr-relay.compile-error.net/",
+      "wss://moonbit-nostr-relay.compile-error.net/",
+      "wss://perl-nostr-relay.compile-error.net/",
+      "wss://snowflare.cc/",
+      "wss://r.kojira.io/",
+    ]
 }
