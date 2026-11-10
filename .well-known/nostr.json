@@ -1,9 +1,9 @@
 {
 	"names": {
-  		"_": "npub1jq9gv8sd2h5awar4vxx2uul2wzh7hjfm3qanadswd99r0sgd2e8qaxaalz"
+  		"_": "900a861e0d55e9d77475618cae73ea70afebc93b883b3eb60e694a37c10d564e"
   	},
 	"relays": {
-    "npub1jq9gv8sd2h5awar4vxx2uul2wzh7hjfm3qanadswd99r0sgd2e8qaxaalz": [
+    "900a861e0d55e9d77475618cae73ea70afebc93b883b3eb60e694a37c10d564e": [
       "wss://nos.lol/",
       "wss://yabu.me/",
       "wss://relay-jp.nostr.wirednet.jp/",
